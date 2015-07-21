@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
-	get ('matches/:player_id') => 'matches#index'  
+	get ('matches/:faction') => 'matches#indexByFaction'
+	get ('matches/winner/:player_id') => 'matches#index'  
 
 end
