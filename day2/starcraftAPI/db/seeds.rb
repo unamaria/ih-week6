@@ -5,7 +5,7 @@
 Player.destroy_all
 Match.destroy_all
 
-factions = ['Terrans', 'Zerg', 'Protoss']
+factions = ['terrans', 'zerg', 'protoss']
 
 15.times do |j|
 	player = Player.create(name: "player #{j}")
